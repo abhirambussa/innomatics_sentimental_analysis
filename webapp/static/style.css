@@ -1,0 +1,61 @@
+/* style.css */
+
+/* Existing styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Set background color to white */
+    color: #333333; /* Set text color to black */
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5; /* Set container background color to light gray */
+}
+
+textarea {
+    width: calc(100% - 30px);
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    background-color: #ffffff; /* Set textarea background color to white */
+    color: #333333; /* Set textarea text color to black */
+    height: 150px;
+    overflow-y: auto;
+}
+
+button {
+    background-color: #007bff; /* Set button background color to blue */
+    color: #fff;
+    border: none;
+    padding: 20px 40px; /* Increase padding to make button larger */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px; /* Set font size */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darken button color on hover */
+}
+
+.positive {
+    color: green;
+}
+
+.negative {
+    color: red;
+}
+
+/* New styles */
+.predict-button {
+    /* Other styles */
+    text-align: center;
+    line-height: 20px; /* Set line height equal to button height for vertical centering */
+  }
+  
